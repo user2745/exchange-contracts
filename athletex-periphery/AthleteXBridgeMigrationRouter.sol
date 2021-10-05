@@ -1,4 +1,4 @@
-pragma solidity ^0.7.6;
+pragma solidity =0.6.6;
 
 import "../athletex-core/interfaces/IAthleteXERC20.sol";
 import "../athletex-lib/libraries/TransferHelper.sol";

@@ -1,4 +1,4 @@
-pragma solidity >=0.6.2;
+pragma solidity =0.6.6;
 
 interface IAthleteXRouter {
     function factory() external pure returns (address);

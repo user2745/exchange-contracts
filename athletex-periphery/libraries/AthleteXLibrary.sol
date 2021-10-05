@@ -1,4 +1,4 @@
-pragma solidity >=0.5.0;
+pragma solidity =0.6.6;
 
 import '../../athletex-core/interfaces/IAthleteXFactory.sol';
 import '../../athletex-core/interfaces/IAthleteXPair.sol';
@@ -22,7 +22,7 @@ library AthleteXLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'' // init code hash @TO-DO @dev: to-be-deployed contracts' bytecode
+                hex'0xbfde4c31c53ffdf860221485440ea1abbe0d77d617329b1d57e1444f48ab0a6b' // HASH_BYTE_CODE of AthleteXFactory.sol hex-nibbles may error, remove 0x and try again
             ))));
     }
 

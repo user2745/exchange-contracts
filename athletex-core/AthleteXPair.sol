@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity =0.5.16;
 
 import './interfaces/IAthleteXPair.sol';
@@ -20,7 +21,7 @@ contract AthleteXPair is IAthleteXPair, AthleteXERC20 {
     address public token1;
 
     uint112 private reserve0;           // uses single storage slot, accessible via getReserves
-    uint112 private reserve1;           // uses single storage slot, accessible via getReserves
+    uint112 private reserve1;          // uses single storage slot, accessible via getReserves
     uint32  private blockTimestampLast; // uses single storage slot, accessible via getReserves
 
     uint public price0CumulativeLast;

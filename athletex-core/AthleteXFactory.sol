@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity =0.5.16;
 
 import './interfaces/IAthleteXFactory.sol';
@@ -9,6 +10,8 @@ contract AthleteXFactory is IAthleteXFactory {
 
     mapping(address => mapping(address => address)) public getPair;
     address[] public allPairs;
+
+    bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(AthleteXPair).creationCode));
 
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 
