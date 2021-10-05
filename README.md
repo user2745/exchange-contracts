@@ -50,7 +50,7 @@ Using two different test ERC20 tokens that you've set-up and deployed, call the 
 
 Adding liquidity to a swap:
 
-Use the `addLiquidity` function and the `two addresses of the tokens you're adding` to the pool, the `amountDesired` is how much you want to add, the `amountMin` is the extent to which B/A price can go up before the transaction reverts. The `to` address is the address created that was created for the swap and `deadline` is the deadline at which the transaction will revert if it hasn't already been processed.
+Use the `addLiquidity` function and the `two addresses of the tokens you're adding` to the pool, the `amountDesired` is how much you want to add, the `amountMin` is the extent to which B/A price can go up before the transaction reverts. The `to` address is the address that was created for the swap and `deadline` is the deadline at which the transaction will revert if it hasn't already been processed.
 
 For more information on the function refer to: [Router02 | Uniswap](https://docs.uniswap.org/protocol/V2/reference/smart-contracts/router-02#addliquidity)
 
