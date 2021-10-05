@@ -14,6 +14,8 @@ This guide is assuming you understand the basics of compiling and deploying a co
 
 ## Installation
 
+``IGNORE THE TEST FOLDERS``
+
 Upload all contracts to Remix, I like to use  GitHub import:
 
 ```bash
