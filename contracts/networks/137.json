@@ -1,0 +1,10 @@
+[
+    {
+        "contractName": "AthleteXFactory",
+        "Address": "0x8720DccfCd5687AfAE5F0BFb56ff664E6D8b385B"
+    },
+    {
+        "contractName": "AthleteXRouter",
+        "Address": "0xe78Bb28079B7a72C8d0e9f67c695E54B74556105"
+    }
+]
