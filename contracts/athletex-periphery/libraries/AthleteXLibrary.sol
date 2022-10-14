@@ -22,7 +22,7 @@ library AthleteXLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'aa0a59671b74643c3f6be00405b68e62692cc1195973e803728d7f421e410bf7' // HASH_BYTE_CODE of AthleteXFactory.sol hex-nibbles may error, remove 0x and try again
+                hex'bb0e67af16c699135204473c6b18288f5b9440d4d59db9a3b002b2f8fe69be02' // HASH_BYTE_CODE of AthleteXFactory.sol hex-nibbles may error, remove 0x and try again
             ))));
     }
 
